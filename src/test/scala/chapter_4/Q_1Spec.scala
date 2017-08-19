@@ -36,10 +36,9 @@ class Q_1Spec extends WordSpecLike
     "can calculate a million parities" in {
       //this will fail with the simple parity
       for(w <- lotOfWords){
-        Q_1.paritySimple(w)
+        Q_1.parityLowestBitErase(w)
       }
     }
   }
-
 
 }
